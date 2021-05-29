@@ -1,0 +1,7 @@
+libs =
+import libs += fmt%lib{fmt}
+
+exe{gregsteg}: {hxx ixx txx cxx}{**} $libs testscript
+
+cxx.coptions = -Wall
+cxx.poptions =+ "-I$out_root" "-I$src_root"

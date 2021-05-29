@@ -1,0 +1,10 @@
+: 1
+name: gregsteg
+version: 0.1.0-a.0.z
+summary: c++ executable for stegonagraphically storing text in images
+license: MIT
+description-file: README.md
+email: mwyatt1000@gmail.com
+depends: * build2 >= 0.13.0
+depends: * bpkg >= 0.13.0
+depends: fmt ~7.0.0
